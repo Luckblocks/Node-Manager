@@ -29,9 +29,13 @@ The **.env** file contains environment variables for configuring the system. Bel
 ### .env
 
 RPC=\`https://\` # RPC URL NODE
+
 PRIVATE\_KEY=  # Executor and owner of the NFTs staked
+
 LOTTERY\_TYPE="Daily" # NFT IDs type: from 1 to 10 - Weekly, from 11 to 50 - Daily
+
 TELEGRAM\_BOT\_TOKEN='' # Get Api Token from https://t.me/BotFather on Telegram
+
 TELEGRAM\_CHAT\_ID= # Get your user Chat Id on https://t.me/chatIDrobot
 
 *   **LOTTERY\_TYPE**: Defines whether the system will manage daily or weekly lotteries. It should be set to either `Daily` or `Weekly`.
