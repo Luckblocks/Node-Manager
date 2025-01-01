@@ -525,11 +525,11 @@ async function main() {
   await sendTelegramMessage('🚀 Starting lottery manager...');
   await executeForAllContracts();
 
-  // Set up periodic refresh of wallet nodes
+  /* Set up periodic refresh of wallet nodes
   setInterval(async () => {
     await sendTelegramMessage('🔄 Refreshing wallet nodes and schedules...');
     await executeForAllContracts();
-  }, 60 * 60 * 1000); // Every hour
+  }, 60 * 60 * 1000); // Every hour */
 }
 
 // Run the main function
