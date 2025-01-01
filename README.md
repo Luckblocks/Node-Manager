@@ -12,8 +12,11 @@ File Structure
 --------------
 
 /lottery-manager
+
 │
+
 ├── .env               # Environment configuration file
+
 ├── lotteryManager.js  # Main script that manages the lottery scheduling and execution
 
 ### Key Files
