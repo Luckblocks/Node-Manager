@@ -119,6 +119,28 @@ The system logs messages to the console and sends updates to a specified Telegra
 *   Alerts for errors or unexpected behavior.
 *   Status updates on scheduled executions.
 
+Creating a Telegram Bot
+-----------------------
+
+To send messages from your script to Telegram, you need to create a Telegram bot and get the API token and your chat ID. Follow the steps below:
+
+### 1\. Create a Bot on Telegram Using BotFather
+
+Follow these steps to create a bot:
+
+1.  Open the [BotFather](https://t.me/BotFather) on Telegram.
+2.  Start a chat with BotFather and use the command `/newbot`.
+3.  Follow the prompts to choose a name and username for your bot.
+4.  Once created, BotFather will send you a message with your bot's API token. This is the token you need to use in the `TELEGRAM_BOT_TOKEN` field in your `.env` file.
+
+### 2\. Get Your Chat ID Using ChatIDrobot
+
+To get your chat ID, follow these steps:
+
+1.  Search for the [ChatIDrobot](https://t.me/chatIDrobot) bot on Telegram and start a chat.
+2.  Send any message to the bot.
+3.  The bot will reply with your **Chat ID**. Copy this chat ID and paste it into the `TELEGRAM_CHAT_ID` field in your `.env` file.
+
 Cron Job Management
 -------------------
 
